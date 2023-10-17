@@ -34,7 +34,7 @@ html, body{
 	height: 100%;
 }
 
-body.demos .section {
+/* body.demos .section {
     background: url(images/bg.png) repeat top center #f2f3f5;
 }
 
@@ -59,7 +59,7 @@ body.demos .service-widget {
 
 body.demos .container-fluid {
     max-width: 1080px
-}
+} */
 
 a {
     color: #1f1f1f;
@@ -363,7 +363,7 @@ a img.aligncenter {
     right: 0;
     background-color: #000;
     z-index: 0;
-    opacity: .6;
+    opacity: .4;
 }
 .heading{
 	color: #fff;
@@ -418,7 +418,7 @@ xclip
   display: inline-block;
   padding: .2em 0;
   color: #ffffff;
-  font-size: 60px;
+  font-size: 65px;
 }
 .cd-headline.clip span b{
 	text-transform: uppercase;
@@ -1907,16 +1907,19 @@ select.mobile-device {
 
 
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 840px) {
     body {
         font-size: 14px; /* Choisir une taille appropriée */
 
     }
     .main-banner {
-        display: table;
-        width: 100%;
-        text-align: center;
-        background-image: url('uploads/meOnSurf.jpg');
+        /* background-image: url('uploads/p8.jpg'); */
+        /* margin-top: -200px; */
     }
+ .heading {
+    /* margin-top: -200px; */
+
+ }
+
 }
 
