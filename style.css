@@ -1907,7 +1907,7 @@ select.mobile-device {
 
 
 
-@media (max-width: 900px) {
+@media screen and (min-width: 768px) {
     body {
         font-size: 14px; /* Choisir une taille appropriée */
 
@@ -1916,7 +1916,7 @@ select.mobile-device {
         display: table;
         width: 100%;
         text-align: center;
-        background-image: url('uploads/dev1.png');
+        background-image: url('uploads/meOnSurf.jpg');
     }
 }
 
