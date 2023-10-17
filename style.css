@@ -310,7 +310,7 @@ a img.aligncenter {
 .navbar-dark .navbar-nav .nav-link{
 	color: #ffffff;
 	letter-spacing: 1px;
-	font-size: 14px;
+	font-size: 18px;
 	position: relative;
 }
 .navbar-dark .navbar-nav .nav-link:hover{
@@ -352,6 +352,7 @@ a img.aligncenter {
 	display: table;
     width: 100%;
 	text-align: center;
+    background-image: url('uploads/hero-bgc.jpg');
 }
 .main-banner::after {
     content: " ";
@@ -1906,8 +1907,16 @@ select.mobile-device {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     body {
         font-size: 14px; /* Choisir une taille appropriée */
+
+    }
+    .main-banner {
+        display: table;
+        width: 100%;
+        text-align: center;
+        background-image: url('uploads/dev1.png');
     }
 }
+
