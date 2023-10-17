@@ -303,23 +303,23 @@ a img.aligncenter {
     HEADER
 -------------------------------------------------------------------*/
 
-.navbar-dark{
+/* .navbar-dark{
 	
-}
+} */
 
-.navbar-dark .navbar-nav .nav-link{
+.navbar-nav .nav-link{
 	color: #ffffff;
 	letter-spacing: 1px;
 	font-size: 18px;
 	position: relative;
 }
-.navbar-dark .navbar-nav .nav-link:hover{
+.navbar-nav .nav-link:hover{
 	color: #ffffff;
 }
-.navbar-dark .navbar-nav .nav-link.active{
+.navbar-nav .nav-link.active{
 	font-weight: 600;
 }
-.navbar-dark .navbar-nav .nav-link::after {
+.navbar-nav .nav-link::after {
     content: '';
     width: 0;
     height: 3px;
@@ -335,7 +335,7 @@ a img.aligncenter {
     transition: all .5s;
     z-index: -1;
 }
-.navbar-dark .navbar-nav .nav-link.active::after {
+.navbar-nav .nav-link.active::after {
 	width: 50%;
 }
 
