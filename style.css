@@ -24,7 +24,7 @@
 -------------------------------------------------------------------*/
 
 body {
-    color: #999999;
+    color: #555555;
     font-size: 18px;
     font-family: 'Roboto Mono', monospace;
     line-height: 1.80857;
@@ -466,7 +466,7 @@ xclip
     display: block;
     position: relative;
     overflow: hidden;
-    padding: 70px 0;
+    padding: 50px 0;
 }
 
 .noover {
@@ -1906,48 +1906,8 @@ select.mobile-device {
 
 
 
-/* Styles pour les téléphones mobiles */
-@media (max-width: 767px) {
-
-    .main-banner {
-        background-position:center ;/* Centrer l'image de fond */
-    }
-
-    .heading {
-        text-align: center; /* Centrer le texte */
-    }
-
-    .heading h1 {
-        font-size: 24px; /* Ajuster la taille de la police */
-    }
-
-    .heading p {
-        font-size: 14px; /* Ajuster la taille de la police */
-    }
-
-    .heading span {
-        display: block; /* Mettre chaque span sur une nouvelle ligne */
-    }
-    .section-title {
-        text-align: center; /* Centrer le titre */
-    }
-
-    .gallery-menu {
-        text-align: center; /* Centrer les boutons de filtre */
-    }
-
-    .gallery-menu .button-group {
-        display: inline-block;
-        margin-bottom: 10px;
-    }
-
-    .gallery-grid {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-
-    .link_contact a {
-        display: block; /* Mettre les liens sur des lignes distinctes */
-        margin-bottom: 1px; /* Ajouter un espace entre les liens */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Choisir une taille appropriée */
     }
 }
