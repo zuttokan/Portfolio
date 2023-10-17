@@ -417,7 +417,7 @@ xclip
   display: inline-block;
   padding: .2em 0;
   color: #ffffff;
-  font-size: 30px;
+  font-size: 60px;
 }
 .cd-headline.clip span b{
 	text-transform: uppercase;
@@ -1904,11 +1904,50 @@ select.mobile-device {
     color: rgba(255, 255, 255, 0.6);
 }
 
+
+
 /* Styles pour les téléphones mobiles */
-@media screen and (min-width: 768px) {
-    .container {
-        width: 100%;
-        padding: 10px;
+@media (max-width: 767px) {
+
+    .main-banner {
+        background-position:center ;/* Centrer l'image de fond */
     }
-    /* Ajoutez ici des styles spécifiques pour les téléphones mobiles */
+
+    .heading {
+        text-align: center; /* Centrer le texte */
+    }
+
+    .heading h1 {
+        font-size: 24px; /* Ajuster la taille de la police */
+    }
+
+    .heading p {
+        font-size: 14px; /* Ajuster la taille de la police */
+    }
+
+    .heading span {
+        display: block; /* Mettre chaque span sur une nouvelle ligne */
+    }
+    .section-title {
+        text-align: center; /* Centrer le titre */
+    }
+
+    .gallery-menu {
+        text-align: center; /* Centrer les boutons de filtre */
+    }
+
+    .gallery-menu .button-group {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+    .gallery-grid {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .link_contact a {
+        display: block; /* Mettre les liens sur des lignes distinctes */
+        margin-bottom: 1px; /* Ajouter un espace entre les liens */
+    }
 }
